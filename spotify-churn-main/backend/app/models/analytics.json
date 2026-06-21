@@ -1,0 +1,97 @@
+{
+  "total_users": 1000,
+  "churned_users": 186,
+  "retained_users": 814,
+  "churn_rate": 18.6,
+  "avg_daily_minutes": 97.57,
+  "avg_playlists": 3.43,
+  "feature_importance": [
+    {
+      "feature": "avg_daily_minutes",
+      "importance": 0.2853
+    },
+    {
+      "feature": "engagement_score",
+      "importance": 0.162
+    },
+    {
+      "feature": "days_since_last_login",
+      "importance": 0.1263
+    },
+    {
+      "feature": "country_encoded",
+      "importance": 0.0824
+    },
+    {
+      "feature": "is_premium",
+      "importance": 0.0801
+    },
+    {
+      "feature": "risk_score",
+      "importance": 0.0692
+    },
+    {
+      "feature": "support_tickets",
+      "importance": 0.0609
+    },
+    {
+      "feature": "genre_encoded",
+      "importance": 0.0477
+    },
+    {
+      "feature": "skips_per_day",
+      "importance": 0.0433
+    },
+    {
+      "feature": "number_of_playlists",
+      "importance": 0.0429
+    }
+  ],
+  "churn_by_subscription": {
+    "Free": 0.3525,
+    "Premium": 0.0827
+  },
+  "churn_by_genre": {
+    "Classical": 0.1862,
+    "Country": 0.2025,
+    "Electronic": 0.2042,
+    "Hip-Hop": 0.2092,
+    "Jazz": 0.2154,
+    "Pop": 0.1,
+    "Rock": 0.1701
+  },
+  "churn_by_country": {
+    "AU": 0.2673,
+    "BR": 0.1562,
+    "CA": 0.2178,
+    "DE": 0.23,
+    "FR": 0.16,
+    "IN": 0.2041,
+    "PK": 0.1524,
+    "RU": 0.1538,
+    "UK": 0.099,
+    "US": 0.2234
+  },
+  "genre_counts": {
+    "Country": 163,
+    "Hip-Hop": 153,
+    "Rock": 147,
+    "Classical": 145,
+    "Electronic": 142,
+    "Jazz": 130,
+    "Pop": 120
+  },
+  "country_counts": {
+    "PK": 105,
+    "RU": 104,
+    "UK": 101,
+    "CA": 101,
+    "AU": 101,
+    "DE": 100,
+    "FR": 100,
+    "IN": 98,
+    "BR": 96,
+    "US": 94
+  },
+  "model_auc": 0.7423
+}
